@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+.encabezado {
+  background-color: blueviolet;
+  text-align: justify;
+  width: 250%;
+  height: 20%;
+}
+.contenedorCuerpo {
+  background-color: gray;
+  width: auto;
+  display:flex;
+}
+.divDerecha {
+  background-color: yellowgreen;
+  width: 170px;
+  height: 150px;
+  border: 5px dashed black;
+  display: inline ;
+  display:-webkit-inline-flex; 
+	display: -ms-inline-flexbox; 
+	display: inline-flex;
+
+}
+.divIzquierda {
+  background-color: yellow;
+  width: 170px;
+  height: 150px;
+  border: 5px dashed black;
+  display: inline ;
+  display:-webkit-inline-flex; 
+	display: -ms-inline-flexbox; 
+	display: inline-flex;
+
+}
+.divCentro {
+  background-color: orangered;
+  width: 170px;
+  height: 150px;
+  margin: 0 auto
+  border: 5px dashed black;
+  display: inline ;
+  display:-webkit-inline-flex; 
+	display: -ms-inline-flexbox; 
+	display: inline-flex;
+}
+.pie {
+  background-color: gainsboro;
+  text-align: justify;
+  width: 250%;
+  height: 20%;
+}
