@@ -2,111 +2,147 @@ body {
   font-family: sans-serif;
 }
 .encabezado {
-  background-color: blueviolet;
+  background-color: #fcf8e8;
   text-align: justify;
   width: auto;
   display: flex;
+  --flex-direction: column;
+}
+.encabezadoMenu {
+  background-color: #fcf8e8;
+  text-align: left;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.encabezadoLogo {
+  background-color: #fcf8e8;
+  text-align: right;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 .contenedorCuerpo {
-  background-color: gray;
+  background-color: #a8d6b8;
   width: auto;
   --display: flex;
 }
 .contenedorCuerpo1 {
-  background-color: gray;
+  background-color: #a8d6b8;
   width: auto;
   display: flex;
 }
 .contenedorCuerpo2 {
-  background-color: gray;
+  background-color: #a8d6b8;
   width: auto;
   display: flex;
 }
+.divLogo {
+  background-color: #76549a;
+  width: auto;
+  width: 280px;
+  height: 20px;
+  border: 2px solid #6a498e;
+  margin: 5px;
+  display: inline;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
 .divMenu1 {
-  background-color: gray;
+  background-color: #cba0ae;
   width: auto;
   width: 580px;
-  height: 20px;
-  border: 5px dashed black;
-  margin: 20px;
-  --margin-left: 720px;
+  height: 25px;
+  border: 2px solid #bf8e9e;
+  --margin: 20px;
+  margin-left: 242px;
   display: inline;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 .divMenu2 {
-  background-color: rgb(224, 113, 113);
+  background-color: #bf8e9e;
   width: auto;
   width: 780px;
-  height: 20px;
-  border: 5px dashed black;
-  margin: 20px;
-  margin-left: 620px;
+  height: 25px;
+  border: 2px solid #af6980;
+  margin: 8px;
+  margin-left: 40px;
   display: inline;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
 }
 .divDerecha {
-  background-color: yellowgreen;
-  width: 380px;
-  height: 150px;
-  border: 5px dashed black;
-  margin: 20px;
+  background-color: #e38d7a;
+  width: 412px;
+  height: 240px;
+  border: 2px dashed #94b49f;
+  margin: 8px;
   display: inline;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .divIzquierda {
-  background-color: yellow;
-  width: 380px;
-  height: 150px;
-  border: 5px dashed black;
-  margin: 20px;
+  background-color: #e78772;
+  width: 412px;
+  height: 240px;
+  border: 2px dashed #94b49f;
+  margin: 8px;
   display: inline;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .divCentro {
-  background-color: orangered;
-  width: 380px;
-  height: 150px;
+  background-color: #94b49f;
+  width: 412px;
+  height: 240px;
   margin: 0 auto;
-  border: 5px dashed black;
-  margin: 20px;
+  border: 2px dashed #94b49f;
+  margin: 8px;
   display: inline;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .divIzquierda2 {
-  background-color: rgb(245, 159, 128);
-  width: 820px;
-  height: 150px;
-  border: 5px dashed black;
-  margin: 20px;
+  background-color: #76549a;
+  width: 850px;
+  height: 180px;
+  border: 2px dashed #e38d7a;
+  margin: 8px;
   display: inline;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .divDerecha2 {
-  background-color: yellowgreen;
-  width: 380px;
-  height: 150px;
-  border: 5px dashed black;
-  margin: 20px;
+  background-color: #8f65bb;
+  width: 412px;
+  height: 180px;
+  border: 2px dashed #e38d7a;
+  margin: 8px;
   display: inline;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .pie {
-  background-color: gainsboro;
-  text-align: justify;
-  width: 250%;
-  height: 20%;
+  background-color: #fcf8e8;
+  width: auto;
+  display: flex;
+  --flex-direction: column;
+}
+.divElemento {
+  background-color: #94b49f;
+  width: 280px;
+  height: 20px;
+  border: 2px solid #6a498e;
+  margin: 5px;
+  margin-left: 910px;
+  display: inline;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  --display: inline-flex;
 }
