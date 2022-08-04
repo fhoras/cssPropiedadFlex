@@ -39,6 +39,7 @@ body {
 }
 .divLogo {
   background-color: #76549a;
+  justify-content: space-around;
   width: auto;
   width: 280px;
   height: 20px;
@@ -56,7 +57,7 @@ body {
   height: 25px;
   border: 2px solid #bf8e9e;
   --margin: 20px;
-  margin-left: 242px;
+  margin-left: 258px;
   display: inline;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -69,11 +70,12 @@ body {
   height: 25px;
   border: 2px solid #af6980;
   margin: 8px;
-  margin-left: 40px;
+  margin-left: 56px;
   display: inline;
 }
 .divDerecha {
   background-color: #e38d7a;
+  justify-content: space-around;
   width: 412px;
   height: 240px;
   border: 2px dashed #94b49f;
@@ -85,6 +87,7 @@ body {
 }
 .divIzquierda {
   background-color: #e78772;
+  justify-content: space-around;
   width: 412px;
   height: 240px;
   border: 2px dashed #94b49f;
@@ -96,6 +99,7 @@ body {
 }
 .divCentro {
   background-color: #94b49f;
+  justify-content: space-around;
   width: 412px;
   height: 240px;
   margin: 0 auto;
@@ -108,6 +112,7 @@ body {
 }
 .divIzquierda2 {
   background-color: #76549a;
+  justify-content: space-around;
   width: 850px;
   height: 180px;
   border: 2px dashed #e38d7a;
@@ -119,6 +124,7 @@ body {
 }
 .divDerecha2 {
   background-color: #8f65bb;
+  justify-content: space-around;
   width: 412px;
   height: 180px;
   border: 2px dashed #e38d7a;
@@ -130,12 +136,14 @@ body {
 }
 .pie {
   background-color: #fcf8e8;
+  justify-content: space-around;
   width: auto;
   display: flex;
   --flex-direction: column;
 }
 .divElemento {
   background-color: #94b49f;
+  justify-content: space-around;
   width: 280px;
   height: 20px;
   border: 2px solid #6a498e;
