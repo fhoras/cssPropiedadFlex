@@ -6,7 +6,6 @@ body {
   text-align: justify;
   width: auto;
   display: flex;
-  --flex-direction: column;
 }
 .encabezadoMenu {
   background-color: #fcf8e8;
@@ -25,7 +24,8 @@ body {
 .contenedorCuerpo {
   background-color: #a8d6b8;
   width: auto;
-  --display: flex;
+  display: flex;
+  flex-direction: column;
 }
 .contenedorCuerpo1 {
   background-color: #a8d6b8;
@@ -45,9 +45,6 @@ body {
   height: 20px;
   border: 2px solid #6a498e;
   margin: 5px;
-  display: inline;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .divMenu1 {
@@ -58,9 +55,6 @@ body {
   border: 2px solid #bf8e9e;
   --margin: 20px;
   margin-left: 262px;
-  display: inline;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .divMenu2 {
@@ -80,9 +74,6 @@ body {
   height: 240px;
   border: 2px dashed #94b49f;
   margin: 8px;
-  display: inline;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .divIzquierda {
@@ -92,9 +83,6 @@ body {
   height: 240px;
   border: 2px dashed #94b49f;
   margin: 8px;
-  display: inline;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .divCentro {
@@ -105,9 +93,6 @@ body {
   margin: 0 auto;
   border: 2px dashed #94b49f;
   margin: 8px;
-  display: inline;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .divIzquierda2 {
@@ -117,9 +102,6 @@ body {
   height: 180px;
   border: 2px dashed #e38d7a;
   margin: 8px;
-  display: inline;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .divDerecha2 {
@@ -129,9 +111,6 @@ body {
   height: 180px;
   border: 2px dashed #e38d7a;
   margin: 8px;
-  display: inline;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 .pie {
@@ -139,7 +118,6 @@ body {
   justify-content: space-around;
   width: auto;
   display: flex;
-  --flex-direction: column;
 }
 .divElemento {
   background-color: #94b49f;
@@ -149,8 +127,5 @@ body {
   border: 2px solid #6a498e;
   margin: 5px;
   margin-left: 910px;
-  display: inline;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  --display: inline-flex;
+  display: inline-flex;
 }
